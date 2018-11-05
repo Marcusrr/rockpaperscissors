@@ -9,3 +9,8 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$("button").click(function() {
+    $("#userChoice").text("hey my namepojlnj");
+});
+
+alert(hello)
