@@ -4,13 +4,17 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
-
-
+var player ="";
+var cpu ="";
+var winn ="";
+var randomNumbr =0;
 // DOCUMENT READY FUNCTION BELOW
 
 $("button").click(function() {
     $("#userChoice").text("hey my namepojlnj");
 });
 
-alert(hello)
+
+
+var player =$("#userChoice").val();
+var cpu =$("#computerChoice").val();
